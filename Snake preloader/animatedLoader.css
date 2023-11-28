@@ -1,0 +1,124 @@
+
+/* 
+Date : Sep ,10 ,2023.
+Created by : Mohammad Ehsan Nicksarisht.
+Facebook : Ehsan Nicksarisht.
+Telegram : @nicki002.
+Instagram : ehsan_nicksarisht.
+*/
+
+body{
+    background-color: black;
+}
+
+h1{
+    text-align: center;
+    color: white;
+}
+
+.container{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.circle{
+    height: 30px;
+    width: 30px;
+    background:linear-gradient(50deg ,white,red,red) ;
+    border-radius: 50%;
+    box-shadow:-5px 5px 50px 5px  rgb(240, 0, 0);
+    display: inline-block;
+    margin:-10px ;    
+}
+
+@keyframes jump {
+    from{
+        margin-left: 20px;
+    }
+    to{
+        margin-bottom: -60px;
+    }
+}
+
+#circle1{
+    animation: jump;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease;
+    animation-direction: alternate-reverse;
+    animation-delay: 0ms;
+}
+#circle2{
+    animation: jump;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease;
+    animation-direction: alternate-reverse;
+    animation-delay: 100ms;
+
+}
+#circle3{
+    animation: jump;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease;
+    animation-direction: alternate-reverse;
+    animation-delay: 200ms;
+
+}
+
+#circle4{
+    animation: jump;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease;
+    animation-direction: alternate-reverse;
+    animation-delay: 300ms;
+
+}
+
+#circle5{
+    animation: jump;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease;
+    animation-direction: alternate-reverse;
+    animation-delay: 400ms;
+
+}
+
+#circle6{
+    animation: jump;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease;
+    animation-direction: alternate-reverse;
+    animation-delay:500ms;
+
+}
+
+#circle7{
+    animation: jump;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease;
+    animation-direction: alternate-reverse;
+    animation-delay: 600ms;
+
+}
+
+.road{
+ 
+    position: absolute;
+    top: 53%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+#whiteLine{
+color: white;
+font-size: 100px;
+font-weight: bold;
+display: flex;
+}
